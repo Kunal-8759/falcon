@@ -2,6 +2,6 @@ const express=require('express');
 const checkController = require('../controllers/check.controller');
 const checkRouter=express.Router();
 
-checkRouter.get('/',checkController);
+checkRouter.get('/checkRoutes',checkController);
 
 module.exports=checkRouter;
